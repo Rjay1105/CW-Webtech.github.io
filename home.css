@@ -1,0 +1,118 @@
+.main{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.navigation {
+    list-style:none;
+    background: rgb(203, 201, 201);
+    display:flex;
+    flex-flow:initial;
+    justify-content: left;
+    text-decoration: rgb(242, 242, 242);
+    text-shadow: .5rem; 
+    position: sticky;
+    right: 0;
+    top: 0;      
+    font-size: x-large;
+}
+        
+        
+.navigation a {
+    text-decoration: none; display: block;
+    padding: 1em; color: rgb(0, 0, 0);
+}
+.navigation a:hover {
+    background: darken(rgb(23, 23, 23) , 2%);
+}
+@media all and (max-width: 300px) { 
+    .navigation {
+        justify-content: left; }
+    .selection {
+        justify-content: left;}
+    };
+
+@media all and (max-width: 300px) { 
+        .navigation {
+                flex-flow: column wrap; padding: 0;
+    }
+}
+.selection {
+    list-style:armenian;
+    background: rgb(203, 201, 201);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300; 
+    height: 20%; 
+    position: sticky; 
+    right: 5;
+    top: 0; 
+    margin-top: auto;
+    margin-left: 75%;
+    font-size: larger;
+  }
+  
+.selection a {
+    text-decoration:solid;
+    display: block;
+    padding: 1em;
+    color: rgb(0, 0, 0);  
+}
+
+.content{
+
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-grow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    font-size:x-large;
+
+}
+.pictures{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    max-height: auto;
+}
+.logo{
+    width: 7.5cm;
+    height: 7.5cm;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    display: flex;
+    text-decoration: rgb(248, 248, 248);
+    margin-left: 41.5%;
+    
+}
+.recipiepage{
+    background: rgb(248, 248, 248);
+    display: flex;
+    flex-grow: column nowrap;
+    justify-content: center;
+    height: auto;
+    margin-left: 10% ;
+    margin-top: -10%;
+    max-width: 200ch;
+    font-size: larger;
+}
+
+.nutrition {
+    list-style-type: lower-roman;
+    width: 115px;
+    background-color: #ded9d9;
+    color: black; 
+    display: block;
+    block-size: cm; 
+    padding: 12px; 
+    text-decoration: none;
+    position: sticky;
+    font-size: larger;
+  }
+  
