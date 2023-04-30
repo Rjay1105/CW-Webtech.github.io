@@ -47,7 +47,7 @@ function path(){
     else if(dayofweek === 6){
        day = "Saturday.html"
    }
-    else if(dayofweek === 1){
+    else if(dayofweek === 7){
       day = "Sunday.html"
     }
     document.getElementById("Todays-meal").href = `/CW-Webtech.github.io/${diet} pages/${day}`;
